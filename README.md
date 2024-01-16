@@ -16,20 +16,25 @@ Database:
 
 🔥PostgreSQL is an object-relational database management system (ORDMBS).
 
-## Installation
+## Getting Started
+To run this project locally, follow these steps:
 
-```bash
-$ npm install
-```
+1.Clone the repository: 
+### `git clone https://github.com/MariaBondar/nest-project.git`
 
-## Env: create .env file and copy variables from .env.example file
+2.Navigate to the project directory:
+## `nest-project`
 
-## Running the app
+3.Install the dependencies:
 
-```bash
-# development
-$ npm run start
-```
-## Migration
+### `npm install`
 
-$ npm run typeorm -- -d src/db-utils/typeOrm.config.ts migration:generate
+4.Download pgAdmin and create server
+
+5.Create .env file and copy variables from .env.example file
+
+6.Start the development server:
+
+### `npm run start`
+
+You have an access to the data using Swagger - http://localhost:3000/api#/.
